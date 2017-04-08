@@ -1,0 +1,31 @@
+"*":
+  core:
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+  "disable-keybindings":
+    prefixKeys: [
+      "ctrl-space"
+    ]
+  editor:
+    fontFamily: "Ricty Diminished"
+    fontSize: 16
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "8e6f8ab9-5fe4-40b7-812b-4821c470ccc9"
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
+  "platformio-ide-terminal":
+    core:
+      shell: "/bin/zsh"
+  runner:
+    scopes:
+      python: "python3"
+  "terminal-plus":
+    core:
+      shell: "/bin/zsh"
+    toggles:
+      autoClose: true
