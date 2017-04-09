@@ -1,12 +1,18 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "f302d164-d80f-4300-8564-19729d3d4e03"
+    markdown:
+      default_beautifier: "Remark"
+  "atomic-emacs": {}
   core:
+    disabledPackages: [
+      "markdown-preview"
+    ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
-  "disable-keybindings":
-    prefixKeys: [
-      "ctrl-space"
-    ]
+  "disable-keybindings": {}
   editor:
     fontFamily: "Ricty Diminished"
     fontSize: 16
@@ -16,6 +22,8 @@
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "8e6f8ab9-5fe4-40b7-812b-4821c470ccc9"
+  kite:
+    showKiteTourOnStatup: false
   "markdown-preview-plus":
     enableLatexRenderingByDefault: true
   "platformio-ide-terminal":
@@ -29,3 +37,5 @@
       shell: "/bin/zsh"
     toggles:
       autoClose: true
+  welcome:
+    showOnStartup: false
