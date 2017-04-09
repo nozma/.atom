@@ -1,12 +1,18 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "f302d164-d80f-4300-8564-19729d3d4e03"
+    markdown:
+      default_beautifier: "Remark"
+  "atomic-emacs": {}
   core:
+    disabledPackages: [
+      "markdown-preview"
+    ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
-  "disable-keybindings":
-    prefixKeys: [
-      "ctrl-space"
-    ]
+  "disable-keybindings": {}
   editor:
     fontFamily: "Ricty Diminished"
     fontSize: 16
