@@ -16,6 +16,8 @@
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "8e6f8ab9-5fe4-40b7-812b-4821c470ccc9"
+  kite:
+    showKiteTourOnStatup: false
   "markdown-preview-plus":
     enableLatexRenderingByDefault: true
   "platformio-ide-terminal":
@@ -29,3 +31,5 @@
       shell: "/bin/zsh"
     toggles:
       autoClose: true
+  welcome:
+    showOnStartup: false
